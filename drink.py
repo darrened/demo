@@ -4,3 +4,6 @@ def canBuyAlcohol(looks_over_25, id_age=None):
     elif id_age and id_age >= 18:
         return True
     return False
+
+def random_change():
+    print("Random change")
